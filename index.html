@@ -3,69 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Black Background Example</title>
-    <style>
-        body {
-            background-color: black;
-            color: white;
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            height: 100vh;
-        }
-
-        .container {
-            width: 80%;
-            padding: 20px;
-            text-align: center;
-        }
-
-        h1 {
-            text-align: center;
-        }
-
-        p {
-            line-height: 1.6;
-        }
-
-        .social-links {
-            margin-top: 20px;
-        }
-
-        .social-links a {
-            display: inline-block;
-            margin: 0 10px;
-        }
-
-        .social-links img {
-            width: 30px;
-            height: 30px;
-        }
-    </style>
+    <title>Diet Designer</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-
-    <div class="container">
-        <h1>FRANCOTA</h1>
-        <p></p>
-        <p></p>
-
-        <div class="social-links">
-            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
-                <img src="twitter-logo.png" alt="Twitter Logo">
-            </a>
-            <a href="https://github.com" target="_blank" rel="noopener noreferrer">
-                <img src="github-logo.png" alt="GitHub Logo">
-            </a>
-            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
-                <img src="linkedin-logo.png" alt="LinkedIn Logo">
-            </a>
-        </div>
-    </div>
-
+    <header>
+        <h1>Diet Designer</h1>
+        <p>Your ultimate solution for meal planning, recipes, and calorie counting.</p>
+    </header>
+    <main>
+        <section id="features">
+            <div class="feature">
+                <h2>Meal Planning</h2>
+                <p>Plan your meals efficiently with our intuitive meal planner. Customize your diet to suit your lifestyle and dietary needs.</p>
+            </div>
+            <div class="feature">
+                <h2>Recipe Finder</h2>
+                <p>Discover new recipes based on your preferences and dietary restrictions. Enjoy a diverse range of healthy and delicious options.</p>
+            </div>
+            <div class="feature">
+                <h2>Calorie Counter</h2>
+                <p>Keep track of your calorie intake easily with our integrated calorie counter. Achieve your fitness goals by staying informed.</p>
+            </div>
+        </section>
+        <section id="apps">
+            <button onclick="window.location.href='#meal-planner'">Meal Planner</button>
+            <button onclick="window.location.href='#recipe-finder'">Recipe Finder</button>
+            <button onclick="window.location.href='#calorie-counter'">Calorie Counter</button>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Diet Designer. All rights reserved.</p>
+    </footer>
 </body>
 </html>
+
